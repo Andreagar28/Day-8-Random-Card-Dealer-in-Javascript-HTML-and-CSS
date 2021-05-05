@@ -36,9 +36,9 @@ const nuevaCarta = () => {
     var element2 = document.getElementById("cardSignBottom");
     element2.classList.add("red");
   } else if (cardSuit[randomSuit] === "♣" || cardSuit[randomSuit] === "♠") {
-    var element = document.getElementById("cardSign");
+    element = document.getElementById("cardSign");
     element.classList.remove("red");
-    var element2 = document.getElementById("cardSignBottom");
+    element2 = document.getElementById("cardSignBottom");
     element2.classList.remove("red");
   }
 };
